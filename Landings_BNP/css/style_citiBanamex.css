@@ -1,0 +1,352 @@
+body {
+	background:#213043;
+	margin: 0;
+	padding: 0;
+	font-family: Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif
+}
+
+h1 {
+	color: #103e67;
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+h3 {
+	margin: 10px 0;
+} 
+
+h4 {
+	font-size: 16px;
+	font-weight: 500;
+	margin: 10px 0;
+}
+
+.azul {
+	color:#1f3b6a;
+}
+
+.rojo {
+	color:#d41a19;
+}
+
+.marginTB20 {
+	margin: 20px 0;
+	display: block;
+	width: 100%;
+}
+
+.cont {
+	width:1024px;
+	margin:0 auto;
+	background: #fff;
+    padding-bottom: 50px;
+}
+.header {
+	width:1024px;
+	margin:20px auto;
+}
+
+.logos {
+	width: 100%;
+	height: 65px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00afe7+0,004280+50 */
+	background: #00afe7; /* Old browsers */
+	background: -moz-linear-gradient(top, #00afe7 0%, #004280 50%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #00afe7 0%,#004280 50%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #00afe7 0%,#004280 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00afe7', endColorstr='#004280',GradientType=0 ); /* IE6-9 */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+} 
+
+.logoCitiBanamex {
+	width: 152px;
+	height: 39px;
+	margin-left: 70px;
+}
+
+.logoCitiBanamex img {
+	width: 100%;
+	height: auto;
+	border: 0;
+} 
+
+.logo_cardif {
+	width:124px;
+	height: 28px;
+	margin-right: 70px;
+}
+
+.logo_cardif img {
+	width: 100%;
+	height: auto;
+}
+
+.bannerCitiBanamex_robo img {
+	width: 100%;
+	height: auto;
+}
+.bannerCitiBanamex_robo {
+	width:100%;
+	margin-bottom:45px;
+	/*background:url(../images/ban_citiBanamex_robo.jpg) no-repeat;*/
+}
+.cont_info {
+	width:906px;
+	background:#FFF;
+	margin:0 auto;
+}
+
+.coberturas {
+	margin:70px 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.coberturasLeft {
+	width: 430px;
+}
+
+.coberturasRight {
+	width: 450px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nombrePlan, .precios {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.nombrePlan span, .precios span {
+	text-align: center;
+	width: 21%;
+}
+
+.precios span {
+	width: 100px;
+}
+
+.precios{
+	margin: 10px 0;
+	color: #0099ce;
+	font-size: 16px;
+	font-weight: 600;
+} 
+
+.nombrePlan span h1 {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.nombrePlan span h2 {
+	font-size: 15px;
+	color:#d41a19;
+}
+
+p, ul {
+	font-size: 14px;
+}
+
+p {
+	margin-bottom:10px;
+}
+
+ul {
+	margin-left: 15px;
+	line-height: 16px;
+	margin-bottom:20px;
+}
+
+.legal {
+	font-style: italic;
+}
+
+.arrowUp {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #d41a19;
+}
+
+.arrowDown {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #d41a19;
+}
+
+.asistencias {
+	border-top:3px solid #706e6e;
+	padding-top: 20px;
+	margin-top:10px;
+}
+
+.blueFooter {
+	width: 100%;
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.blueFooter p {
+	width: 820px;
+	background: #004775;
+	color: #fff;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 30px 30px;
+	margin-bottom: 0px;
+}
+
+.blueFooterArrow {
+	border-left: solid 26px #004775;
+	border-top: solid 22px transparent;
+	border-bottom: solid 22px transparent;
+}
+
+.blueFooter img {
+	margin-left: 40px;
+}
+
+.grayFooter {
+	background: #706e6e;
+	margin-top:40px;
+	padding: 20px 35px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.grayFooter p {
+	color:#fff;
+	line-height: 18px;
+	font-weight: 600;
+	font-style: italic;
+	text-align: justify;
+	width: 930px;
+}
+
+.downloadsArea {
+	width: 906px;
+	margin:40px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.downloadsArea a {
+	color: #004775;
+	font-weight: 600;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+.downloadsArea a:hover {
+	text-decoration: underline;
+}
+
+.downloadsArea a::after {
+	content: "";
+	border-top: 8px solid #d41a19;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	margin-left:5px;
+}
+
+.infoCobertura {
+	display: none;
+}
+
+@media only screen and (max-width:768px )  {
+
+	.cont {
+		width:768px;
+		margin:0 auto;
+	}
+	.header {
+		width:100%;
+		margin:20px auto;
+	}
+
+	.cont_info {
+		width:700px;
+	}
+
+	.coberturasLeft , .coberturasRight {
+		width: 100%;
+	}
+
+	.blueFooter p {
+		width: 565px;
+	}
+
+	.grayFooter p {
+		width: 680px;
+	}
+
+	.downloadsArea {
+		width: 700px;
+	}
+
+	.downloadsArea a {
+		text-align: center;
+		width: 30%;
+	} 
+}
+
+@media only screen and (max-width:480px ) {
+
+	.cont {
+		width:480px;
+		margin:0 auto;
+	}
+	.header {
+		width:100%;
+		margin:20px auto;
+	}
+
+	.bannerCitiBanamex_robo {
+		width: 480px;
+		height: 226px;
+		background:url(../images/ban_citiBanamex_robo_m.jpg);
+		background-size: cover;
+	}
+
+	.bannerCitiBanamex_robo img {
+		display: none;
+	}
+
+	.cont_info {
+		width:430px;
+	}
+
+	.coberturasLeft , .coberturasRight {
+		width: 100%;
+	}
+
+	.blueFooter p {
+		width: 270px;
+	}
+
+	.grayFooter p {
+		width: 390px;
+	}
+
+	.downloadsArea {
+		width: 400px;
+		flex-direction: column;
+	}
+
+	.downloadsArea a {
+		text-align: center;
+		width: 100%;
+		justify-content: center;
+		margin:20px 0;
+	} 
+}

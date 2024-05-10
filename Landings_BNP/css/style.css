@@ -1,0 +1,1194 @@
+body {
+	background:url(../images/bg_d.jpg) #000 center top no-repeat;
+	margin: 0;
+	font-family: Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif
+}
+a:link {
+	color: #FFF;
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: underline;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+a:active {
+	text-decoration: underline;
+	color: #FFF;
+}
+
+.link_blue {
+	color: navy !important;
+}
+.clear {
+	clear:both;
+}
+.cont {
+	width:1024px;
+	margin:0 auto;
+}
+.header {
+	width:1024px;
+	margin:20px auto;
+}
+.logo_scotiabank, .logo_banbajio {
+	width:210px;
+	float:left;
+}
+.logo_cardif {
+	width:250px;
+	float:right;
+}
+.logo_cardifh {
+	width:250px;
+	float:right;
+}
+.separador {
+	width:100%;
+	height:20px;
+}
+.error {
+	color:#000;
+	width:96%;
+	font-size:12px;
+	padding:5px;
+	margin-top:30px;
+	font-weight:bold;
+	background:#FFFFFF;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+/*login style*/
+.left {
+	width:187px;
+	height:258px;
+	float:left;
+	padding:10px;
+	text-align:center;
+	background:#4e8b77;
+	color:#FFFFFF;
+	font-size:14px;
+}
+.left h1 {
+	font-family: 'bnpp_sansregular';
+	font-size:22px;
+}
+.left .formCont {
+	display:block;
+	padding-top:30px !important;
+	width:187px;
+	height:100px;
+}
+.left .formCont img {
+	float:left;
+	padding-top:0;
+}
+.left .formCont span {
+	float:left;
+	margin-top:5px !important;
+	margin-left:10px;
+	font-size:13px;
+}
+.left .formCont input {
+	width:177px;
+	padding:5px;
+	text-align:center;
+	margin-top:10px;
+}
+.left .btEntrar {
+	width:49px;
+	margin:0 auto;
+	height:21px;
+	display:block;
+	background:url(../images/bt_entrar.jpg);
+}
+.left .btEntrar:hover {
+	background-position:0 -21px;
+}
+.right img {
+	display:none;
+}
+.right {
+	width:817px;
+	height:278px;
+	float:right;
+	margin-bottom:20px;
+	background:url(../images/img_header_login.jpg) right no-repeat;
+}
+
+b, strong {
+	font-family: 'bnpp_sansbold';
+}
+.img_home img {
+	display:none;
+}
+.img_home {
+	width:1024px;
+	height:554px;
+	margin:0 auto;
+	margin-bottom:20px;
+	background:url(../images/img_home.jpg) center;
+}
+@media only screen and (max-width:480px ) {
+.error {
+	font-size:16px;
+}
+.cont {
+	width:100%;
+	margin:0 auto;
+}
+.header {
+	width:100%;
+	margin:20px auto;
+}
+.logo_scotiabank img, .logo_banbajio img {
+	width:60% !important;
+	margin-left:10px;
+	float:left;
+}
+	.logo_cardif img {
+	width:60% !important;
+	margin-right:10px;
+	float:right;
+	margin-top:-40px;
+}
+.logo_cardifh img {
+	width:60% !important;
+	margin-right:10px;
+	float:right;
+	margin-top:0;
+}
+.left {
+	display:block;
+	width:90% !important;
+	height:258px;
+	float:none;
+	margin:20px auto;
+	margin-top:20px !important;
+	padding:10px;
+	text-align:center;
+	background:#4e8b77;
+	color:#FFFFFF;
+	font-size:22px;
+}
+.left h1 {
+	font-family: 'bnpp_sansregular';
+	font-size:22px;
+}
+.left .formCont {
+	display:block;
+	padding-top:50px !important;
+	width:100%;
+	height:100px;
+}
+.left .formCont img {
+	float:none;
+	padding-top:0;
+}
+.left .formCont span {
+	float:none;
+	margin-top:-20px !important;
+	margin-left:10px;
+	font-size:18px !important;
+}
+.left .formCont input {
+	width:70%;
+	padding:5px;
+	text-align:center;
+	margin-top:10px;
+	font-size:22px;
+}
+.left .btEntrar {
+	width:75px;
+	margin:0 auto;
+	height:32px;
+	display:block;
+	background:url(../images/bt_entrar_m.jpg);
+}
+.left .btEntrar:hover {
+	background-position:0 -32px;
+}
+.right img {
+	display:inline;
+	width:100%;
+}
+.right {
+	width:100%;
+	height:auto;
+	float:none;
+	margin-top:20px;
+	margin-bottom:0;
+	background:none;
+}
+.img_home img {
+	display:inline;
+	width:100%;
+}
+.img_home {
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	margin-bottom:20px;
+	background:none;
+}
+}
+@media only screen and (max-width:768px ) {
+.error {
+	font-size:18px;
+}
+.cont {
+	width:100%;
+	margin:0 auto;
+}
+.header {
+	width:100%;
+	margin:20px auto;
+}
+.logo_scotiabank img, .logo_banbajio img {
+	width:90%;
+	margin-left:10px;
+	float:left;
+}
+	.logo_cardifh img {
+	width:90%;
+	margin-right:10px;
+	float:right;
+}
+.logo_cardif img {
+	width:90%;
+	margin-right:10px;
+	float:right;
+}
+.left {
+	display:block;
+	width:370px;
+	height:280px;
+	float:none;
+	margin:20px auto;
+	margin-top:20px !important;
+	padding:10px;
+	text-align:center;
+	background:#4e8b77;
+	color:#FFFFFF;
+	font-size:22px;
+}
+.left h1 {
+	font-family: 'bnpp_sansregular';
+	font-size:22px;
+}
+.left .formCont {
+	display:block;
+	padding-top:20px !important;
+	width:100%;
+	height:100px;
+}
+.left .formCont img {
+	float:none;
+	padding-top:0;
+}
+.left .formCont span {
+	float:none;
+	margin-top:-20px !important;
+	margin-left:10px;
+	font-size:20px !important;
+}
+.left .formCont input {
+	width:70%;
+	padding:5px;
+	text-align:center;
+	margin-top:10px;
+	font-size:22px;
+}
+.left .btEntrar {
+	width:75px;
+	margin:0 auto;
+	margin-top:40px !important;
+	height:32px;
+	display:block;
+	background:url(../images/bt_entrar_m.jpg);
+}
+.left .btEntrar:hover {
+	background-position:0 -32px;
+}
+.right img {
+	display:inline;
+	width:100%;
+}
+.right {
+	width:100%;
+	height:auto;
+	float:none;
+	margin-top:20px;
+	margin-bottom:0;
+	background:none;
+}
+.img_home img {
+	display:inline;
+	width:100%;
+}
+.img_home {
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	margin-bottom:20px;
+	background:none;
+}
+}
+
+
+/*pages Style*/
+
+.bannerVal_Seg img {
+	display:none;
+}
+.bannerVal_Seg {
+	width:1024px;
+	height:277px;
+	margin-bottom:20px;
+	background:url(../images/ban_val-seg.jpg) no-repeat;
+}
+.bannerIng_Seg img {
+	display:none;
+}
+.bannerIng_Seg {
+	width:1024px;
+	height:277px;
+	margin-bottom:20px;
+	background:url(../images/ban_ing-seg.jpg) no-repeat;
+}
+.bannerScotiaBank_val_seg img {
+	display:none;
+}
+.bannerScotiaBank_val_seg {
+	width:1024px;
+	height:277px;
+	margin-bottom:20px;
+	background:url(../images/ban_val_seg_sctbnk.jpg) no-repeat;
+}
+
+.bannerScotiaBank_valora img {
+	display:none;
+}
+.bannerScotiaBank_valora {
+	width:1024px;
+	height:277px;
+	margin-bottom:20px;
+	background:url(../images/ban_scotiabank_valora.jpg) no-repeat;
+}
+
+.bannerScotiaBank_momentos img {
+	display:none;
+}
+.bannerScotiaBank_momentos {
+	width:1024px;
+	height:277px;
+	margin-bottom:20px;
+	background:url(../images/ban_scotiabank_momentos.jpg) no-repeat;
+}
+
+.bannerBanbajio_accidentes img {
+	display:none;
+}
+.bannerBanbajio_accidentes {
+	width:1024px;
+	height:277px;
+	margin-bottom:20px;
+	background:url(../images/ban_banbajio_accidentes.jpg) no-repeat;
+}
+.bannerCitiBanamex_robo img {
+	display:none;
+}
+.bannerCitiBanamex_robo {
+	width:1024px;
+	height:277px;
+	margin-bottom:20px;
+	background:url(../images/ban_citiBanamex_robo.jpg) no-repeat;
+}
+
+.bannerBanbajio_vida img {
+	display:none;
+}
+.bannerBanbajio_vida {
+	width:1024px;
+	height:277px;
+	margin-bottom:20px;
+	background:url(../images/ban_banbajio_vida.jpg) no-repeat;
+}
+.bannerBanbajio_muerteAccidental img {
+	display:none;
+}
+.bannerBanbajio_muerteAccidental {
+	width:1024px;
+	height:277px;
+	margin-bottom:20px;
+	background:url(../images/ban_banbajio_muerteAccidental.jpg) no-repeat;
+}
+
+/*carteraprotegida-banbajio*/
+
+.bannerBanbajio_carteraPro img {
+	display:none;
+}
+.bannerBanbajio_carteraPro {
+	width:1024px;
+	height:277px;
+	margin-bottom:20px;
+	background:url(../images/ban_banbajio_carteraPro.jpg) no-repeat;
+}
+/*fraude-banbajio*/
+
+.bannerBanbajio_fraude img {
+	display:none;
+}
+.bannerBanbajio_fraude {
+	width:1024px;
+	height:277px;
+	margin-bottom:20px;
+	background:url(../images/ban_banbajio_fraude.jpg) no-repeat;
+}
+
+.bannerBanbajio_enfermedades_graves img {
+	display:none;
+}
+.bannerBanbajio_enfermedades_graves {
+	width:1024px;
+	height:277px;
+	margin-bottom:20px;
+	background:url(../images/ban_banbajio_enfermedades_graves.jpg) no-repeat;
+}
+
+.bannerPlenitud img {
+	display:none;
+}
+.bannerPlenitud {
+	width:1024px;
+	height:277px;
+	margin-bottom:20px;
+	background:url(../images/ban_plenitud.jpg) no-repeat;
+}
+
+.bannerVitalEscencial img {
+	display:none;
+}
+.bannerVitalEscencial {
+	width:1024px;
+	height:277px;
+	margin-bottom:20px;
+	background:url(../images/vital_escencial.jpg) no-repeat;
+}
+
+.bannerGapScotiabank img {
+	display:none;
+}
+.bannerGapScotiabank {
+	width:1024px;
+	height:400px;
+	margin-bottom:20px;
+	background:url(../images/ban_gap_scotiabank.jpg) no-repeat;
+}
+
+.bannerCuidadosEsencial img {
+	display:none;
+}
+.bannerCuidadosEsencial {
+	width:1024px;
+	height:400px;
+	margin-bottom:20px;
+	background:url(../images/ban_cuidadosEsencial.jpg) no-repeat;
+}
+
+.bannerValorFactura424 img, .bannerGastosMedicos img, .bannersegurovida img{
+	display:none;
+}
+.bannerValorFactura424 {
+	width:1024px;
+	height:400px;
+	margin-bottom:20px;
+	background:url(../images/ban_ValorFactura424.jpg) no-repeat;
+}
+.bannerGastosMedicos {
+	width:1024px;
+	height:400px;
+	margin-bottom:20px;
+	background:url(../images/banner_apoyogm.jpg) no-repeat;
+    background-size: cover;
+}
+.bannersegurovida{
+	width:1024px;
+	height:400px;
+	margin-bottom:20px;
+	background:url(../images/banner_vida.jpg) no-repeat;
+    background-size: cover;
+}
+.bannerDesempleoFormales img {
+	display:none;
+}
+.bannerDesempleoFormales {
+	width:1024px;
+	height:400px;
+	margin-bottom:20px;
+	background:url(../images/ban_desempleo_formales.jpg) no-repeat;
+}
+
+.bannerDesempleoIndependientes img {
+	display:none;
+}
+.bannerDesempleoIndependientes {
+	width:1024px;
+	height:400px;
+	margin-bottom:20px;
+	background:url(../images/ban_desempleo_independientes.jpg) no-repeat;
+}
+
+.bannerProteccionFinanciera img {
+	display:none;
+}
+
+.bannerProteccionFinanciera {
+	width:1024px;
+	height:400px;
+	margin-bottom:20px;
+	background:url(../images/ban_proteccion_financiera_elemental.jpg) no-repeat;
+}
+
+.cont_info {
+	width:94%;
+	background:#FFF;
+	min-height:400px;
+	padding:3%;
+	font-size:17px;
+}
+h1 {
+	font-size:42px;
+	color:#4e8a78;
+	font-family: 'bnpp_sansbold_italic';
+}
+h2 {
+	margin-top:20px;
+	color:#F80004;
+	font-size:20px;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:normal;
+}
+h3 {
+	font-size:32px;
+	color:#4e8a78;
+	font-style:italic;
+	margin-top:20px;
+	font-family: 'bnpp_sansbold_italic';
+}
+p {
+	margin-top:20px;
+	color:#434343;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:normal;
+	line-height: 1.3em;
+}
+
+article {
+	line-height: 1.3em;
+}
+
+.costo {
+	color:#F80004;
+	font-weight: bold;
+	display: inline;
+} 
+.coberturaT{
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	float:left;
+	margin-left: 40px;
+	text-align:left;
+	width:50%;
+	margin-top: 20px;
+}
+.coberturaST{
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align:left;
+	width:90%;
+}
+.sumaT{
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	float:right;
+	margin-right: 20px;
+	margin-top: 20px;
+	text-align:right;
+	width:40%;
+}
+
+.coberturaCiti{
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	float:left;
+	margin-left: 40px;
+	text-align:left;
+	width:45%;
+	margin-top: 20px;
+}
+
+.nombrePlanCiti{
+	font-size:16px;
+	font-weight:bold;
+	/*text-transform:uppercase;*/
+	float:right;
+	margin-right: 30px;
+	margin-top: 20px;
+	text-align:right;
+	width:40%;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nombrePlanCiti span {
+	text-align: center;
+} 
+
+.contCoberturaCiti {
+	width: 50% !important;
+}
+
+.pricesCiti {
+	display:flex; flex-wrap:wrap; justify-content:space-between; width: 39%;float:  right; color: #4e8a78; font-size: 16px; margin-top: 3px;
+}
+
+.pricesCiti div {
+	text-align: center;
+}
+
+.asistenciaUL {
+	margin: 5px 0 5px 20px;
+}
+
+.asistenciaUL li {
+	line-height: 25px;	
+}
+
+ .asistenciaUL li:before {
+ 	content:") ";
+ } 
+
+.redBanner {
+	width:984px;
+	height:134px;
+	padding:20px;
+	margin-top:20px;
+	background:url(../images/red_ban_val-seg.jpg);
+}
+.redBanner p {
+	display:block;
+	padding-top:20px;
+	color:#FFFFFF;
+	width:750px;
+	line-height:22px;
+	font-size:18px;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:normal;
+}
+.redBanner2 {
+	width:984px;
+	height:134px;
+	padding:20px;
+	margin-top:20px;
+	background:url(../images/red_ban_ing-seg.jpg);
+}
+.redBanner2 p {
+	display:block;
+	padding-top:20px;
+	color:#FFFFFF;
+	width:750px;
+	line-height:22px;
+	font-size:16px;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:normal;
+}
+.purpleBanner {
+	width:984px;
+	height:134px;
+	padding:20px;
+	margin-top:20px;
+	background:url(../images/purple_ban_val-seg.jpg);
+}
+.purpleBanner p {
+	display:block;
+	padding-top:20px;
+	color:#FFFFFF;
+	width:750px;
+	line-height:26px;
+	font-size:22px;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:normal;
+}
+.greyBG {
+	margin-top:0;
+	padding:4%;
+	width:92%;
+	font-size:16px !important;
+	background:#6e6e6e;
+	text-align:center;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	color:#FFFFFF;
+}
+.footer {
+	margin-top:20px;
+	padding:2%;
+	width:96%;
+	height:25px;
+	font-size:22px;
+	background:#6e6e6e;
+	text-align:center;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	color:#FFFFFF;
+}
+.footer span {
+	float:left;
+	margin-top:5px;
+	margin-left:50px;
+}
+.footer img {
+	float:right;
+	margin-top:-10px;
+	margin-right:100px;
+}
+.btFotter {
+	width:49.5%;
+	float:left;
+	height:32px;
+	margin-bottom:30px;
+	background:#FFFFFF url(../images/bt_footer.jpg) right no-repeat;
+}
+.btFotter a {
+	display:block;
+	width:100%;
+	text-align:center;
+	color:#0f9a66;
+	padding-top:10px;
+	font-weight:bold;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+}
+
+.separadorbt {
+	display:block;
+	width:1%;
+	height:32px;
+	float:left;
+}
+.btFotter2 {
+	width:33%;
+	display: inline-block;
+	height:32px;
+
+	background:#FFFFFF url(../images/bt_footer.jpg) right no-repeat;
+}
+.btFotter2 a, .btFotter3 a {
+	display:block;
+	width:100%;
+	text-align:center;
+	color:#0f9a66;
+	padding-top:10px;
+	font-weight:bold;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+}
+
+.btFotter3 {
+    /* width: 33%; */
+    display: inline-block;
+    padding: 0 68px;
+    height: 32px;
+    background: #FFFFFF url(../images/bt_footer.jpg) right no-repeat;
+}
+
+@media only screen and (max-width:768px )  {
+.bannerVal_Seg img, .bannerBanbajio_accidentes img, .bannerBanbajio_vida img, .bannerBanbajio_muerteAccidental img, .bannerScotiaBank_val_seg img, .bannerBanbajio_carteraPro img, .bannerBanbajio_fraude img, .bannerCitiBanamex_robo img, .bannerScotiaBank_valora img, .bannerScotiaBank_momentos img, .bannerBanbajio_enfermedades_graves img, .bannerPlenitud img , .bannerVitalEscencial img, .bannerGapScotiabank img , .bannerCuidadosEsencial img , .bannerValorFactura424 img, .bannerDesempleoFormales img, .bannerDesempleoIndependientes img, .bannerProteccionFinanciera img, .bannerGastosMedicos img, .bannersegurovida img{
+	display:inline;
+	width:100%;
+}
+.bannerVal_Seg, .bannerBanbajio_accidentes, .bannerBanbajio_vida, .bannerBanbajio_muerteAccidental, .bannerScotiaBank_val_seg, .bannerBanbajio_carteraPro, .bannerBanbajio_fraude, .bannerCitiBanamex_robo, .bannerScotiaBank_valora, .bannerScotiaBank_momentos, .bannerBanbajio_enfermedades_graves, .bannerPlenitud, .bannerVitalEscencial, .bannerGapScotiabank, .bannerCuidadosEsencial, .bannerValorFactura424, .bannerDesempleoFormales, .bannerDesempleoIndependientes, .bannerProteccionFinanciera, .bannerGastosMedicos, .bannersegurovida{
+	width:100%;
+	height:auto;
+	margin-bottom:20px;
+	background:none;
+}
+.bannerIng_Seg img {
+	display:inline;
+	width:100%;
+}
+.bannerIng_Seg {
+	width:100%;
+	height:auto;
+	margin-bottom:20px;
+	background:none;
+}
+.cont_info {
+	width:94%;
+	background:#FFF;
+	min-height:400px;
+	padding:3%;
+	font-size:22px;
+}
+h1 {
+	font-size:32px;
+	color:#4e8a78;
+	text-align:center;
+	font-family: 'bnpp_sansbold_italic';
+}
+h2 {
+	margin-top:20px;
+	color:#F80004;
+	font-size:20px;
+	text-align:center;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:normal;
+}
+h3 {
+	font-size:32px;
+	color:#4e8a78;
+	font-style:italic;
+	margin-top:20px;
+	text-align:center;
+	font-family: 'bnpp_sansbold_italic';
+}
+p {
+	margin-top:20px;
+	font-size: 18px;
+	color:#434343;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:normal;
+}
+.coberturaT{
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	float:left;
+	text-align:left;
+	width:50%;
+}
+.sumaT{
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	float:right;
+	text-align:right;
+	width:40%;
+}
+.redBanner {
+	width:auto;
+	height:auto;
+}
+.redBanner p {
+	display:block;
+	padding-top:20px;
+	color:#FFFFFF;
+	width:90%;
+	margin:0 auto;
+	line-height:22px;
+	font-size:22px;
+	text-align:center;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:normal;
+}
+.redBanner2, .purpleBanner {
+	width:auto;
+	height:auto;
+
+}
+.redBanner2 p, .purpleBanner p {
+	display:block;
+	padding-top:0;
+	color:#FFFFFF;
+	width:95%;
+	margin:0 auto;
+	line-height:16px;
+	font-size:16px;
+	text-align:justify;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:normal;
+}
+.footer {
+	display:block;
+	margin-top:20px;
+	padding:2%;
+	width:96%;
+	height:60px !important;
+	font-size:22px;
+	background:#6e6e6e;
+	text-align:center;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	color:#FFFFFF;
+}
+.footer span {
+	float:left;
+	width:80%;
+	margin-top:5px;
+	margin-left:10px;
+}
+.footer img {
+	float:right;
+	width:auto;
+	margin-top:10px;
+	margin-right:20px;
+}
+.btFotter {
+	width:100%;
+	float:none;
+	height:40px;
+	font-size:20px;
+	margin-bottom:10px;
+	background:#FFFFFF url(../images/bt_footer.jpg) right no-repeat;
+}
+	
+.btFotter a {
+	display:block;
+	width:100%;
+	text-align:center;
+	color:#0f9a66;
+	padding-top:10px;
+	font-weight:bold;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+}
+	
+.separadorbt {
+	display:block;
+	width:1%;
+	height:32px;
+	float:left;
+}
+.btFotter2, .btFotter3 {
+	width:100% !important;
+	display:block;
+	height:auto;
+	background:#FFFFFF url(../images/bt_footer.jpg)  right no-repeat;
+	padding:10px 0;
+}
+.btFotter3 a {
+	width:90%;
+}
+
+}
+
+@media only screen and (max-width:480px ) {
+.bannerVal_Seg img, .bannerBanbajio_accidentes img, .bannerBanbajio_vida img, .bannerBanbajio_muerteAccidental img, .bannerScotiaBank_val_seg img, .bannerBanbajio_carteraPro img, .bannerBanbajio_fraude img, .bannerCitiBanamex_robo img, .bannerScotiaBank_valora img, .bannerScotiaBank_momentos img, .bannerBanbajio_enfermedades_graves img, .bannerPlenitud img , .bannerVitalEscencial img, .bannerGapScotiabank img , .bannerCuidadosEsencial img, .bannerValorFactura424 img , .bannerDesempleoFormales img, .bannerDesempleoIndependientes img, .bannerProteccionFinanciera img{
+	display:inline;
+	width:100%;
+}
+.bannerVal_Seg, .bannerBanbajio_accidentes, .bannerBanbajio_vida, .bannerBanbajio_muerteAccidental, .bannerScotiaBank_val_seg .bannerBanbajio_carteraPr, .bannerBanbajio_fraude, .bannerCitiBanamex_robo, .bannerScotiaBank_valora, .bannerScotiaBank_momentos, .bannerBanbajio_enfermedades_graves, .bannerPlenitud , .bannerVitalEscencial, .bannerGapScotiabank, .bannerCuidadosEsencial, .bannerValorFactura424, .bannerDesempleoFormales, .bannerDesempleoIndependientes, .bannerProteccionFinanciera {
+	width:100%;
+	height:auto;
+	margin-bottom:20px;
+	background:none;
+}
+.cont_info {
+	width:94%;
+	background:#FFF;
+	min-height:400px;
+	padding:3%;
+	font-size:18px;
+}
+.bannerIng_Seg img {
+	display:inline;
+	width:100%;
+}
+.bannerIng_Seg {
+	width:100%;
+	height:auto;
+	margin-bottom:20px;
+	background:none;
+}
+h1 {
+	font-size:32px;
+	color:#4e8a78;
+	text-align:center;
+	font-family: 'bnpp_sansbold_italic';
+}
+h2 {
+	margin-top:22px;
+	color:#F80004;
+	font-size:18px;
+	text-align:center;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:normal;
+}
+h3 {
+	font-size:32px;
+	color:#4e8a78;
+	font-style:italic;
+	margin-top:22px;
+	text-align:center;
+	font-family: 'bnpp_sansbold_italic';
+}
+p {
+	margin-top:20px;
+	color:#434343;
+	font-size: 18px;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:normal;
+}
+.coberturaT{
+	font-size:18px;
+	font-weight:bold;
+	text-transform:uppercase;
+	width:35% !important;
+}
+.sumaT{
+	font-size:18px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-right: 0;
+	width:50% !important;
+}
+.redBanner {
+	width:100%;
+	height:auto !important;
+}
+.redBanner p {
+	display:block;
+	padding-top:20px;
+	color:#FFFFFF;
+	width:90%;
+	margin:0 auto;
+	line-height:26px;
+	font-size:20px;
+	text-align:center;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:normal;
+}
+.redBanner2, .purpleBanner {
+	width:100%;
+	margin: 0;
+	padding: 0;
+	height:auto !important;
+}
+.redBanner2 p, .purpleBanner p {
+	display:block;
+	padding-top:20px;
+	color:#FFFFFF;
+	width:90%;
+	margin:0 auto;
+	line-height:26px;
+	font-size:20px;
+	text-align:center;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:normal;
+}
+	
+.footer {
+	margin-top:20px;
+	padding:2%;
+	width:96%;
+	height:92px !important;
+	font-size:22px;
+	background:#6e6e6e;
+	text-align:center;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	color:#FFFFFF;
+}
+.footer span {
+	float:left;
+	width:80%;
+	margin-top:5px;
+	margin-left:10px;
+}
+.footer img {
+	float:right;
+	width:10%;
+	margin-top:20px;
+	margin-right:20px;
+}
+.btFotter {
+	width:100%;
+	float:none;
+	height:32px;
+	margin-bottom:10px;
+	background:#FFFFFF url(../images/bt_footer.jpg) right no-repeat;
+}
+.btFotter a {
+	display:block;
+	width:100%;
+	text-align:center;
+	color:#0f9a66;
+	padding-top:10px;
+	font-weight:bold;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+}
+.btFotter3 {
+	width:100%;
+	float:none;
+	/*height:32px;*/
+	margin-bottom:10px;
+	background:#FFFFFF url(../images/bt_footer.jpg) right no-repeat;
+}
+.btFotter3 a {
+	display:block;
+	width:90%;
+	text-align:center;
+	color:#0f9a66;
+	padding:10px 0;
+	font-weight:bold;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+}
+.separadorbt {
+	display:block;
+	width:1%;
+	height:32px;
+	float:left;
+}
+}
+
+table {
+	margin-top: 10px;
+	text-align: center;
+}
+
+table thead {
+	background: #4e8a78;
+	color: #fff;
+}
+
+table thead th {
+	border: 1px solid #666;
+	padding: 5px 10px;
+}
+
+table tbody td {
+	padding: 5px 10px;
+	border: 1px solid #666;
+}
+
+table tbody td.left_align {
+	text-align: left;
+}
+
+ul.element-list, ol.element-list {
+	margin-top: 5px;
+	padding-left: 20px !important;
+}
+
+ul.element-list li {
+	padding: 3px 0;
+}
+
+td.rowspan {
+	vertical-align: middle;
+}
+
+.navy_blue {
+	color: navy;
+}
+
+.legal {
+	font-size: 12px;
+	font-style: italic;
+}

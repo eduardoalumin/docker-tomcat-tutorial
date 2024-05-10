@@ -1,6 +1,6 @@
-FROM tomcat:8.0-alpine
+FROM tomcat:9.0.8-jre8-alpine
 
-ADD cardif.war /usr/local/tomcat/webapps/
+ADD cardif.sbi.war /usr/local/tomcat/webapps/
 
-EXPOSE 8080
+EXPOSE 80
 CMD ["catalina.sh", "run"]
